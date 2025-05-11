@@ -1,0 +1,9 @@
+
+---
+
+### **requirements.txt**
+
+```txt
+ultralytics
+opencv-python
+numpy
