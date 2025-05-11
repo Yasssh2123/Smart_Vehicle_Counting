@@ -3,7 +3,7 @@
 A real-time vehicle detection and counting system built in my **free time** using **YOLOv11** and **OpenCV**, designed to process **video files** and provide live vehicle count analytics.
 
 ## 📽️ Demo
-This project supports **video input only** (not webcam or images). It detects and counts vehicles crossing user-defined lines in either **UP** or **DOWN** directions.
+This project supports **video input only** (not images). It detects and counts vehicles crossing user-defined lines in either **UP** or **DOWN** directions.
 
 ## 🚀 Features
 
@@ -26,4 +26,6 @@ This project supports **video input only** (not webcam or images). It detects an
    ```bash
    git clone https://github.com/Yasssh2123/Smart_Vehicle_Counting.git
    cd Smart_Vehicle_Counting
-   pip3 install -r requirement.txt   
+   pip3 install -r requirement.txt
+   python3 Main.py 
+      
