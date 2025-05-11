@@ -2,8 +2,8 @@ import cv2
 import numpy as np
 from ultralytics import YOLO
 
-model = YOLO("yolo11m.pt")
-cap = cv2.VideoCapture(r"C:\Users\yashc\Downloads\Vehicle Detection project\Car_2Lane.mp4")
+model = YOLO("yolo11m.pt") #it'll automatically download the pretrained model 
+cap = cv2.VideoCapture("Car_2Lane.mp4") #Update your input video path
 
 # Set the fixed output resolution to 1080x1920
 output_width = 1920
