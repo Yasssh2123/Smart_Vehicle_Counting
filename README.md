@@ -26,6 +26,12 @@ This project supports **video input only** (not images). It detects and counts v
    ```bash
    git clone https://github.com/Yasssh2123/Smart_Vehicle_Counting.git
    cd Smart_Vehicle_Counting
+2. Install the requirements:
+   ```bash
    pip3 install -r requirement.txt
+3. Run the Code :
+   ```bash
    python3 Main.py 
+After you run the code, you will be prompted to select two points for drawing each of the counting lines. First, draw the "UP" line to count vehicles moving up, and then draw the "DOWN" line to count vehicles moving down.
+
       
