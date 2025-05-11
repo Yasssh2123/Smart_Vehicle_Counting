@@ -26,3 +26,4 @@ This project supports **video input only** (not webcam or images). It detects an
    ```bash
    git clone https://github.com/Yasssh2123/Smart_Vehicle_Counting.git
    cd Smart_Vehicle_Counting
+   pip3 install -r requirement.txt   
